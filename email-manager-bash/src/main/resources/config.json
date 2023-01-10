@@ -1,0 +1,16 @@
+{
+  "sources": [
+    {
+      "class": "xktz.xkamework.json.bean.ClassPathJsonBeanSource",
+      "config": {
+        "path": "/beans.json"
+      }
+    },
+    {
+      "class": "xktz.xkamework.annotation.bean.AnnotationBeanSource",
+      "config": {
+        "mapperScan": "xktz.mail.bash"
+      }
+    }
+  ]
+}

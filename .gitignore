@@ -1,0 +1,21 @@
+# Project exclude paths
+
+# email configuration
+mail.conf
+
+# draft
+/draft
+
+# idea folders
+/.idea/
+/*/.idea/
+
+# iml file
+/*/*.iml
+
+# test files
+/email-manager-bash/target/
+/email-manager-core/target/
+/email-manager-test/target/
+/email-manager-ui-backend/target/
+/email-manager-ui-frontend/node_modules/
